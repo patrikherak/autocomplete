@@ -1,6 +1,6 @@
 # Autocomplete
 
-This component uses Vue 3 + Vite with a composition API approach. Some parts were skipped due to the time limitation (e2e, unit tests) and styling could be also laggy due to the current Angularish VS setup.
+This component uses Vue 3 + Vite with a composition API approach. Some parts were skipped due to the time limitation (e2e, unit tests) and linting could be also a bit broken due to the current Angularish VS setup on my machine.
 
 Possible improvements with more time:
 - Unit tests
