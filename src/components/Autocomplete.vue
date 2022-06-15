@@ -3,12 +3,6 @@ import { ref } from 'vue'
 import { useDebounce } from '../composables/useDebounce.js'
 import { useDataFetcher } from '../composables/useDataFetcher.js'
 
-interface Props {
-  label: string
-  placeholder?: string
-  dataProvider: Function
-}
-
 const props = defineProps({
   label: {
     type: String,
@@ -20,7 +14,7 @@ const props = defineProps({
   },
   dataProvider: {
     type: Function,
-    default: null
+    required: true
   }
 })
 
